@@ -1,8 +1,4 @@
 /*================================================
-Template name: Travgo Travel Mobile App Template
-Version: 1.0.0
-Author: Website Stock       
-Author url: https://themeforest.net/user/website_stock/portfolio  
 
 [ Table of Contents ]
 
