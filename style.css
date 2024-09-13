@@ -305,6 +305,49 @@ background-color:#0be0af;
 display:inline-block;
 letter-spacing:-0.5px;
 }
+
+.page-title {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  padding: 0 16px 24px 16px;
+  border: 0;
+  align-items: center;
+  background: white;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 50;
+}
+
+.page-title .main-title {
+  grid-column: span 4;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--primary-text);
+}
+
+button {
+  outline: none;
+  border: 0;
+  transition: all linear 0.3s;
+}
+
+.align-button {
+  align-items: center !important;
+  justify-content: center;
+  display: flex;
+}
+
+.page-title .back-btn {
+  background: rgba(18, 18, 18, 0.08);
+  height: 48px;
+  width: 48px;
+}
+
+.rounded-full {
+  border-radius: 50%;
+}
 /*===============================================*/
 /* 4. HEADER AND HEADER NAVIGATION */
 /*===============================================*/
