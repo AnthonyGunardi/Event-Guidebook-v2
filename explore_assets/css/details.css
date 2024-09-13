@@ -152,6 +152,11 @@ Author url: https://themeforest.net/user/website_stock/portfolio
   line-height: 22px;
 }
 
+.detail-rule li {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
 /* 2.2: details location */
 .details-location .map {
   width: 100%;
