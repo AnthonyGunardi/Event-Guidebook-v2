@@ -7,7 +7,7 @@
   <title>Joining Instruction</title>
 
   <!-- favicon -->
-  <link rel="shortcut icon" href="explore_assets/images/favicon.png" type="image/x-icon">
+  <!-- <link rel="shortcut icon" href="explore_assets/images/favicon.png" type="image/x-icon"> -->
 
   <!-- bootstrap -->
   <link rel="stylesheet" href="explore_assets/css/bootstrap.min.css">
@@ -72,7 +72,7 @@
         <button type="button" class="back-btn back-page-btn d-flex align-items-center justify-content-center rounded-full">
           <img src="explore_assets/svg/arrow-left-black.svg" alt="arrow">
         </button>
-        <h3 class="main-title">Vacation Details</h3>
+        <h3 class="main-title">Spot Details</h3>
       </div>
     </section>
     <!-- banner end -->
@@ -148,5 +148,10 @@
 
   <!-- script -->
   <script src="explore_assets/js/script.js"></script>
+  <script>
+    if (!(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent))) {
+      document.body.innerHTML = "<h1>Gunakan browser handphone anda untuk membuka situs ini.</h1>";
+    }
+  </script>
 </body>
 </html>
