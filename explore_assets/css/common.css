@@ -666,6 +666,12 @@ body,
   width: 48px;
 }
 
+.page-title .back-btn-grey {
+  background: rgba(41, 40, 40, 0.08) !important;
+  height: 48px;
+  width: 48px;
+}
+
 .page-title .main-title {
   grid-column: span 4;
   text-align: center;

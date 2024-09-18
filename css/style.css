@@ -3055,8 +3055,14 @@ bottom:40%;
 height: 70%;
 }
 .toolbar-icon a{
-width:47%;
-margin:1.5%;
+/* for 6 options */
+width:31%;
+/* for 4 options */
+/* width:47%; */
+/* for 6 options */
+margin:1.1%;
+/* for 4 options */
+/* margin:1.5%; */
 padding:5% 0; 
 }
 

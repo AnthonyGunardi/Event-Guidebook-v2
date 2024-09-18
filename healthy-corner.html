@@ -27,6 +27,9 @@
 
   <!-- welcome -->
   <link rel="stylesheet" href="explore_assets/css/welcome.css">
+
+  <!-- details -->
+  <link rel="stylesheet" href="explore_assets/css/details.css">
 </head>
 
 <body class="scrollbar-hidden">
@@ -34,8 +37,8 @@
   <section id="preloader" class="spalsh-screen">
     <div class="circle text-center">
       <div>
-        <h1>Travgo</h1>
-        <p>Discover Your Destinition</p>
+        <h1>Waves Of Happiness</h1>
+        <p>BCA Insurance</p>
       </div>
     </div>
     <div class="loader-spinner">
@@ -61,7 +64,7 @@
       <div class="swiper onboarding-swiper">
         <div class="swiper-wrapper">
           <!-- item-1 -->
-          <div class="swiper-slide">
+          <div class="swiper-slide details">
             <div class="image position-relative">
               <div class="page-title">
                 <button type="button" class="back-btn back-page-btn d-flex align-items-center justify-content-center rounded-full">
@@ -106,13 +109,18 @@
           </div>
 
           <!-- item-2 -->
-          <div class="swiper-slide">
+          <div class="swiper-slide details">
             <div class="image position-relative">
+              <div class="page-title">
+                <button type="button" class="back-btn back-page-btn back-btn-grey d-flex align-items-center justify-content-center rounded-full">
+                  <img src="explore_assets/svg/arrow-left-black.svg" alt="arrow">
+                </button>
+              </div>
               <img src="explore_assets/images/Confidence-Burst.jpg" alt="Slide" class="w-100 h-100 object-fit-cover">
             </div>
             <div class="content text-center">
               <h2>Confidence Burst</h2>
-              <p>Body serum</p>
+              <p>Deodorizer Serum Spray</p>
             </div>
             <div class="content">
               <p>Peserta akan mendapatkan free <strong>Confidence Burst</strong></p>
@@ -120,43 +128,25 @@
             <div class="content">
               <p>Manfaat :</p>
               <ul>
-                <li>Melembapkan kulit</li>
-                <li>Meremajakan kulit</li>
-                <li>Menutrisi kulit dengan Vit C, K, dan E</li>
-                <li>Mencerahkan kulit</li>
-                <li>Menenangkan kulit kemerahan</li>
-                <li>Mempercepat penyembuhan bekas luka dan jerawat</li>
-                <li>Memberikan perlindungan paparan sinar UV</li>
-                <li>Mengurangi acne, penuaan, hiperpigmentasi dan flek</li>
-                <li>Memperbaiki tekstur kulit</li>
+                <li>Menghilangkan bau badan sampai 72 Jam</li>
+                <li>Menyamarkan kerutan</li>
+                <li>Mencerahkan warna kulit</li>
+                <li>Mudah digunakan karena berbentuk spray</li>
+                <li>Tidak lengket dan mudah menyerap</li>
+                <li>Tidak meninggalkan noda</li>
               </ul>
             </div>
             <div class="content">
               <p>Ingredients :</p>
               <ul>
-                <li>Aqua Phytoplex 4-in-1 Essential Oil</li>
-                <li>Sunflower Oil</li>
-                <li>Argan Oil</li>
-                <li>Canola Oil</li>
-                <li>Meadowfoam Seed Oil</li>
-                <li>3% Niacinamide</li>
-                <li>Titanium Dioxide (Anti UV A & UV B)</li>
+                <li>Allantoin, Aloe Vera</li>
+                <li>Glutathione</li>
+                <li>Castor Oil</li>
+                <li>Niacinamide</li>
               </ul>
             </div>
           </div>
 
-          <!-- item-4 -->
-          <!-- <div class="swiper-slide">
-            <div class="image position-relative">
-              <img src="explore_assets/images/onboarding/welcome.png" alt="Slide" class="w-100 h-100 object-fit-cover">
-            </div>
-            <div class="content text-center">
-              <h2>We are here to make your holiday easier</h2>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-              <a href="pages/auth/signin.html" class="btn-primary btn-get-started">Get Started</a>
-              <h6>Don’t have an account? <a href="pages/auth/signup.html">Register</a></h6>
-            </div>
-          </div> -->
         </div>
 
       </div>
@@ -200,10 +190,15 @@
   <script src="explore_assets/js/swiper-bundle.min.js"></script>
 
   <!-- datepicker -->
-  <script src="explore_explore_assets/js/jquery.datetimepicker.full.js"></script>
+  <script src="explore_assets/js/jquery.datetimepicker.full.js"></script>
 
   <!-- script -->
   <script src="explore_assets/js/script.js"></script>
+  <script>
+    if (!(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent))) {
+      document.body.innerHTML = "<h1>Gunakan browser handphone anda untuk membuka situs ini.</h1>";
+    }
+  </script>
 </body>
 
 </html>
