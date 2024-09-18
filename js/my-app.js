@@ -278,4 +278,23 @@ $$('.messagebar .link').on('click', function () {
   // Update conversation flag
   conversationStarted = true;
 });  
-})           
+})
+
+// Add event listener to open the popup
+$('.open-popup').on('click', function () {
+  $('.popup-login').addClass('active');
+  $('.panel-overlay').addClass('active'); // Make sure the overlay is shown
+});
+
+// Add event listener to close the popup
+$('.close-popup').on('click', function () {
+  $('.popup-login').removeClass('active');
+  $('.panel-overlay').removeClass('active'); // Make sure the overlay is hidden
+});
+
+// Event listener for opening popup when the button in notification bar is clicked
+$('#open-popup-btn').on('click', function () {
+  $('.popup-login').addClass('active');
+  $('.panel-overlay').addClass('active');
+});
+

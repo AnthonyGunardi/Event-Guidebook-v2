@@ -349,4 +349,20 @@ $(document).ready(function () {
 		});	
    } 
    
+   // Event listener for opening popup when the button in notification bar is clicked
+  $('#open-popup-btn').on('click', function () {
+    $('.popup-login').addClass('active');
+  });
+
+  // Close notification bar
+  $('#close-notification').on('click', function () {
+    $('#notification-bar').slideUp(); // Hide the notification bar smoothly
+  });
+
+  // Open popup on 'Learn More' button click
+  $('#open-popup-btn').on('click', function () {
+    $('.popup-login').addClass('active');
+    // $('.panel-overlay').addClass('active');
+  });
+  
 });

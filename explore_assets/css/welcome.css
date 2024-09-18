@@ -147,7 +147,7 @@ Author url: https://themeforest.net/user/website_stock/portfolio
 }
 
 .onboarding .content {
-  padding: 32px 24px 24px 24px;
+  padding: 22px 14px 14px 14px;
 }
 
 .onboarding .content h2 {
@@ -157,6 +157,13 @@ Author url: https://themeforest.net/user/website_stock/portfolio
 }
 
 .onboarding .content p {
+  color: var(--secondary-text);
+  font-size: 14px;
+  font-weight: 500;
+  padding-top: 16px;
+}
+
+.onboarding ul li {
   color: var(--secondary-text);
   font-size: 14px;
   font-weight: 500;
