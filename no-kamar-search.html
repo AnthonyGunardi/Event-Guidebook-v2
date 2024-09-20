@@ -54,7 +54,7 @@
     let tableRows = "";
     table.innerHTML= "";
 
-    axios.get(`https://anthonygunardi.com:5001/api/v1/roomoccupants/search?nama=${nameForm}`)
+    axios.get(`https://anthonygunardi.com/api-poin-peserta/v1/roomoccupants/search?nama=${nameForm}`)
     .then(result => {
       let resultData = result.data;
       resultData.forEach(ele=>{

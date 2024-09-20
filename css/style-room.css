@@ -1,10 +1,10 @@
 .demo{ font-family: 'Noto Sans', sans-serif; }
 body {
-  background: linear-gradient(to right, #2980b9, #1961c7);
+  background: linear-gradient(to right, #2980b9, #006cb3);
 }
 
 .panel{
-    background: linear-gradient(to right, #2980b9, #1961c7);
+    background: linear-gradient(to right, #2980b9, #006cb3);
     padding: 0;
     border-radius: 10px;
     border: none;
